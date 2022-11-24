@@ -1,0 +1,120 @@
+.container:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-color: rgb(2, 10, 75) ;
+  height: 100vh;
+}
+
+
+
+.main {
+  display: flex;
+  padding: 1rem;
+  align-items: stretch;
+  justify-content: space-around; 
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.wallet {
+  border-radius: 30px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0px 0px 50px 0px black;
+  background-color: rgba(0, 25, 250, 0.4);
+
+}
+
+
+.big-box {
+  display: flex;
+  padding: 1rem;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.write {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.big-box {
+  margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.right-box {
+  flex:2;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 0px 50px 0px black;
+  background-color: rgba(0, 25, 250, 0.4);
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+.left-box {
+  flex: 1;
+  font-weight: bold;
+  text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+
+.box-content {
+  text-align: center;
+  flex: 1;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 0px 50px 0px black;
+  background-color: rgba(0, 25, 250, 0.4);
+}
+
+
+
+input {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.966);
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
+  background-color: rgb(2, 10, 75);
+  color: #fff;
+}
+
+.ayuda {
+  color: white;
+}
